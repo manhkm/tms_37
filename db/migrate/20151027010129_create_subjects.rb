@@ -5,6 +5,8 @@ class CreateSubjects < ActiveRecord::Migration
       t.text :instruction
       t.date :start_date
       t.date :end_date
+      t.integer :date_duration
+
 
       t.timestamps null: false
     end
